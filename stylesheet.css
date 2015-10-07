@@ -1,0 +1,106 @@
+
+.authors img {
+  height:30px;
+  width: 30px;
+  border-radius:10px;
+  border: 0px;
+  display: inline;
+  float:right;
+}
+
+.octodex {
+  background-color: white;
+  margin:70px 0px 70px 0px;
+  background-color:white;
+}
+
+.octocat {
+  display: inline-block;
+  background-color: white;
+  padding-top: 15px;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+  border:2px;
+  border-style: solid;
+  border-color: grey;
+  border-radius:.5%;
+  display: inline-block;
+  background-color:white;
+  padding: 5px;
+}
+/*
+.arrow {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 10px 0 10px;
+  border-color: #b3b6ba transparent transparent transparent;
+  position:sticky;
+  clear:both;
+  padding:0px;
+  margin:0px;
+  top:-5px;
+}*/
+
+
+li {
+  font-family:Arial;
+  color:grey;
+  background-color: white;
+  display: inline-block;
+  text-align: right;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  background-color: white;
+  color: grey;
+}
+
+
+div {
+  display:grid;
+  background-color: white;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.image-footer{
+  background-color: white;
+  border-bottom: 1px solid grey;
+  min-height: 40px;
+
+
+}
+.image-number:before{
+  content: "#";
+}
+.image-number{
+  background-color: white;
+  float:left;
+  display:inline;
+  top: 12px;
+  position:relative;
+}
+
+.image-caption span,a {
+  position: relative;
+  top: -12px;
+
+}
+.image-caption {
+  background-color: white;
+  float:right;
+  display: inline-block;
+  margin:0px;
+  padding:0px;
+}
+
+.authors {
+  display: inline-block;
+  padding:0px;
+}
